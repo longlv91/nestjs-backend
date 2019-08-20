@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import menus from './assets/data';
+import menus from '../assets/data';
 
 @Injectable()
 export class AppService {

@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import menus from './assets/data';
+import menus from '../assets/data';
 
 describe('AppController', () => {
   let appController: AppController;
