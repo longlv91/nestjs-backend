@@ -9,11 +9,11 @@ async function bootstrap() {
   app.enableCors();
 
   const options = new DocumentBuilder()
-    .setTitle('React Demo Backend API')
-    .setDescription('The React Demo Backend API description')
+    .setTitle('NestJS Demo Backend API')
+    .setDescription('The NestJS Demo Backend API description')
     .setVersion('1.0')
     .setBasePath('api')
-    .addTag('react')
+    .addTag('Backend API')
     .addBearerAuth()
     .build();
   const document = SwaggerModule.createDocument(app, options);
