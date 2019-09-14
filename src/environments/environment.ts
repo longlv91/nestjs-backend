@@ -4,5 +4,5 @@
 
 export const environment = {
   production: false,
-  secret_key: 'reactproject',
+  secret_key: 'demoproject',
 };
