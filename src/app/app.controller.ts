@@ -9,6 +9,7 @@ import { ApiBearerAuth, ApiUseTags } from '@nestjs/swagger';
 export class AppController {
   constructor(private readonly appService: AppService, private readonly authService: AuthService) {}
 
+  @UseGuards(AuthGuard('jwt'))
   @Get('menus')
   @ApiUseTags('Backend API')
   getMenus(): string {
